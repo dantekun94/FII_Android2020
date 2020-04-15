@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
 
         FileOutputStream outStream = null;
         File sdCard = Environment.getExternalStorageDirectory();
-        File dir = new File(sdCard.getAbsolutePath() + "/YourFolderName");
+        File dir = new File(sdCard.getAbsolutePath() + "/Lab7");
         dir.mkdirs();
         String fileName = String.format("%d.jpg", System.currentTimeMillis());
         File outFile = new File(dir, fileName);
